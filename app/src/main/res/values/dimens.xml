@@ -1,0 +1,32 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="header_top_height">80dp</dimen>
+    <dimen name="small_text">10sp</dimen>
+    <dimen name="regular_text">12sp</dimen>
+    <dimen name="medium_text">16sp</dimen>
+    <dimen name="large_text">25sp</dimen>
+    <dimen name="headline_text">18sp</dimen>
+    <dimen name="header_circular_image_size">100dp</dimen>
+    <dimen name="header_bottom_height">200dp</dimen>
+    <dimen name="header_text_size">40sp</dimen>
+    <dimen name="ui_spacing_medium">16dp</dimen>
+    <dimen name="ui_spacing_small">16dp</dimen>
+    <dimen name="ui_spacing_large">24dp</dimen>
+    <dimen name="slightly_medium_text">14sp</dimen>
+    <dimen name="icon_size">16dp</dimen>
+    <dimen name="slight_medium_text">18sp</dimen>
+    <dimen name="toolbar_text">20sp</dimen>
+    <dimen name="drawer_width">304dp</dimen>
+    <dimen name="icon_edit_height">120sp</dimen>
+    <dimen name="icon_height">100dp</dimen>
+    <dimen name="card_margin">150dp</dimen>
+    <dimen name="icon_width">50dp</dimen>
+    <dimen name="icon_farmer">40dp</dimen>
+    <dimen name="profile_pic_size">60dp</dimen>
+    <dimen name="drawer_icon_size">20dp</dimen>
+    <dimen name="ui_padding">8dp</dimen>
+    <dimen name="margin_size">70dp</dimen>
+    <dimen name="layout_height">40dp</dimen>
+</resources>

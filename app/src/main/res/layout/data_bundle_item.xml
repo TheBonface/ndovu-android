@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:layout_marginRight="@dimen/activity_horizontal_margin"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:paddingTop="@dimen/ui_padding"
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_height="match_parent"
+        >
+
+
+        <ImageView
+            android:id="@+id/application_image"
+            android:layout_width="10dp"
+            android:layout_height="100dp"
+
+            android:adjustViewBounds="true"
+            android:background="@color/primary_color"
+            android:baselineAlignBottom="true"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/icon_width"
+            android:id="@+id/app_description"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/application_image"
+            android:textSize="@dimen/regular_text"
+            android:padding="@dimen/ui_spacing_small" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/app_usage"
+            android:gravity="right"
+            android:text="100MB"
+            android:layout_toRightOf="@+id/application_image"
+            android:textSize="@dimen/large_text"
+            android:paddingRight="@dimen/ui_spacing_small"
+            android:paddingTop="@dimen/icon_width"/>
+    </RelativeLayout>
+</LinearLayout>

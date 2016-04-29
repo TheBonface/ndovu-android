@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Theme Colours -->
+    <color name="theme_blue">#1267A0</color>
+    <color name="theme_dark_blue">#38139E</color>
+    <color name="theme_gray">#ECECEC</color>
+    <color name="theme_orange">#eb6706</color>
+
+    <color name="primary_color">#ffeb6706</color>
+    <color name="primary_color_dark">#BB5219</color>
+    <color name="accent_color">#BB5219</color>
+
+    <color name="primary_background">#F5F5F5</color>
+
+    <color name="text_main_color">#ff202020</color>
+    <color name="text_sub_color">#ff999999</color>
+    <color name="text_sub_sub_color">#ffcccccc</color>
+    <color name="grey">#cccccc</color>
+    <color name="text_dark_bg_color">#ffffffff</color>
+
+
+    <color name="button_possitive">#94c11f</color>
+    <color name="text_transaction_positive">#84b10f</color>
+    <color name="text_transaction_negative">#ffdb562b</color>
+
+
+    <color name="opaque_white_background">#CCFFFFFF</color>
+    <color name="translucent_white_background">#55FFFFFF</color>
+
+    <color name="black_semi_transparent">#B2000000</color>
+    <color name="background">#e5e5e5</color>
+    <color name="half_black">#808080</color>
+    <color name="white">#fafafa</color>
+    <color name="white_pressed">#f1f1f1</color>
+    <color name="gray_background">#202020</color>
+    <color name="positive_color">#94c11f</color>
+
+    <!-- FAB colors -->
+    <color name="fab_account">#2369B3</color>
+    <color name="fab_pressed">#AA2369B3</color>
+    <color name="fab_sim">#EC6707</color>
+    <color name="fab_sim_pressed">#AAEC6707</color>
+    <color name="fab_loans">#616161</color>
+    <color name="fab_loans_pressed">#2E2E2E</color>
+    <color name="fab_pay_bill">#B91E56</color>
+    <color name="fab_pay_bill_pressed">#AAB91E56</color>
+    <color name="fab_withdraw_cash">#A94C02</color>
+    <color name="fab_withdraw_cash_pressed">#AAA94C02</color>
+    <color name="fab_send_money">#2369B3</color>
+    <color name="fab_send_money_pressed">#AA2369B3</color>
+    <color name="fab_own_accouont">#12A19A</color>
+    <color name="fab_own_accouont_pressed">#AA12A19A</color>
+    <color name="fab_send_data_bundle">#2E308E</color>
+    <color name="fab_send_data_bundle_pressed">#AA2E308E</color>
+    <color name="fab_send_airtime">#8F53A1</color>
+    <color name="fab_send_airtime_pressed">#AA8F53A1</color>
+    <color name="fab_buy_airtime">#EA6720</color>
+    <color name="fab_buy_airtime_pressed">#AAEA6720</color>
+    <color name="fab_buy_data_bundle">#F39200</color>
+    <color name="fab_buy_data_bundle_pressed">#AAF39200</color>
+
+    <color name="fab_goals">#EC6707</color>
+    <color name="fab_goals_pressed">#AAEC6707</color>
+    <color name="fab_create_goal">#AAF39200</color>
+    <color name="fab_create_goal_pressed">#AAF3BE09</color>
+    <color name="fab_virtual_chama">#12A19A</color>
+    <color name="fab_virtual_chama_pressed">#AA12A19A</color>
+    <color name="fab_virtual_salary">#2369B3</color>
+    <color name="fab_virtual_salary_pressed">#AA2369B3</color>
+    <color name="fab_request_loan">#2369B3</color>
+    <color name="fab_request_loan_pressed">#AA2369B3</color>
+    <color name="fab_check_loan_limit">#8F53A1</color>
+    <color name="fab_check_loan_limit_pressed">#AA8F53A1</color>
+    <color name="rounded_image_paint">#BAB399</color>
+
+    <color name="map_fab_icon">#7d7d7d</color>
+    <color name="map_fab_bg">#ffffff</color>
+    <color name="map_fab_shadow">#40000000</color>
+
+    <color name="equity_orange">#eb6706</color>
+    <color name="equity_teal">#11a19a</color>
+    <color name="equity_blue">#0669b4</color>
+    <color name="equity_white">#FFFFFF</color>
+    <color name="currency_code">#e1e1e1</color>
+    <color name="blue_with_opacity">#280669b4</color>
+
+    <color name="gray_tint">#cccccc</color>
+    <color name="loans_blue_withopacity">#29ffffff</color>
+    <color name="loans_details_icon">#ededed</color>
+
+    <color name="white_transparent_16_percent">#30FFFFFF</color>
+
+    <color name="nav_drawer_selected_background">#ededed</color>
+
+    <color name="lawn_green">#87F717</color>
+
+    <!-- Facebook fragment -->
+    <color name="pre_login_location">#2369B3</color>
+    <color name="pre_login_open_account">#12A19A</color>
+    <color name="pre_login_contact_us">#F39200</color>
+    <color name="pre_login_services">#8F53A1</color>
+    <color name="pre_login_button">#A94C02</color>
+    <color name="pre_login_button_pressed">#AAA94C02</color>
+    <color name="pre_login_social_media">#87F717</color>
+    <color name="pre_login_tabs">#808080</color>
+    <color name="pre_login_currency_scrollview">#EEEEEE</color>
+    <color name="market_open">#D4D4D4</color>
+    <color name="market_closed">#424242</color>
+
+    <dimen name="picker_place_image_size">64dp</dimen>
+    <color name="picker_search_bar_background">#f5f5f7</color>
+    <color name="picker_search_bar_text">#bcbdc2</color>
+    <color name="disabled_button_color">#FFB7B7B7</color>
+    <color name="material_yellow">#F3DB00</color>
+
+
+    <color name="transparent_100_percent">#00FFFFFF</color>
+    <color name="stocks_black_semi_transparent">#40000000</color>
+
+    <color name="stocks_purple">#B91E56</color>
+    <color name="material_orange">#FFAB00</color>
+    <color name="red">#FF0000</color>
+    <color name="green">#006400</color>
+
+</resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/pager_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/text_sub_color"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/empty_view_2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <com.leo.simplearcloader.SimpleArcLoader
+            android:id="@+id/loader"
+            android:layout_width="@dimen/header_top_height"
+            android:layout_height="@dimen/header_top_height"
+            android:layout_gravity="center"
+            android:visibility="visible"
+            custom:arc_colors="@array/data_progress"
+            custom:arc_margin="6dp"
+            custom:arc_speed="medium"
+            custom:arc_style="complete_arc" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/text_sub_color">
+
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/chart1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/pattern_background_white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <com.astuetz.PagerSlidingTabStrip xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@color/equity_white"
+            android:textColor="@color/pre_login_tabs"
+            android:textSize="@dimen/regular_text"
+            app:pstsDividerColor="#00000000"
+            app:pstsIndicatorColor="@color/equity_orange"
+            app:pstsIndicatorHeight="4dp"
+            app:pstsShouldExpand="true"
+            app:pstsUnderlineHeight="0dp" />
+
+        <FrameLayout
+            android:id="@+id/empty_view_3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white">
+
+            <com.leo.simplearcloader.SimpleArcLoader
+                android:layout_width="@dimen/header_top_height"
+                android:layout_height="@dimen/header_top_height"
+                android:layout_gravity="center"
+                android:visibility="visible"
+                custom:arc_colors="@array/data_progress"
+                custom:arc_margin="6dp"
+                custom:arc_speed="medium"
+                custom:arc_style="complete_arc" />
+        </FrameLayout>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/primary_background" />
+    </LinearLayout>
+</LinearLayout>

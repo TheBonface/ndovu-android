@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string-array name="summary_chart">
+        <item>#F39200</item>
+        <item>#EB6706</item>
+        <item>#BAB399</item>
+        <item>#AAF39200</item>
+        <item>#616161</item>
+        <item>#AAA94C02</item>
+        <item>#2E2E2E</item>
+    </string-array>
+
+
+    <string-array name="data_progress">
+        <item>@color/material_orange</item>
+        <item>@color/fab_buy_data_bundle</item>
+        <item>@color/pre_login_contact_us</item>
+        <item>@color/equity_orange</item>
+    </string-array>
+</resources>

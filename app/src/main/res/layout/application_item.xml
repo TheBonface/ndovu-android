@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:resauto="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    resauto:cardPreventCornerOverlap="true"
+    resauto:cardUseCompatPadding="true"
+    resauto:cardElevation="4dp"
+    resauto:cardMaxElevation="4dp"
+    resauto:cardCornerRadius="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:paddingTop="@dimen/ui_padding"
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/application_image"
+            android:layout_width="@dimen/profile_pic_size"
+            android:layout_height="@dimen/profile_pic_size"
+            android:layout_gravity="center_vertical"
+            android:scaleType="centerInside"
+            android:layout_marginLeft="@dimen/ui_spacing_small" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/icon_width"
+            android:id="@+id/app_description"
+            android:layout_toRightOf="@+id/application_image"
+            android:layout_alignParentTop="true"
+            android:textSize="@dimen/regular_text"
+            android:padding="@dimen/ui_spacing_small" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/icon_width"
+            android:id="@+id/app_usage"
+            android:gravity="right"
+            android:layout_toRightOf="@+id/application_image"
+            android:layout_alignParentTop="true"
+            android:textSize="@dimen/regular_text"
+            android:padding="@dimen/ui_spacing_small" />
+
+        <android.support.v4.widget.ContentLoadingProgressBar
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/icon_width"
+            android:layout_toRightOf="@+id/application_image"
+            android:layout_alignParentTop="true"
+            android:paddingLeft="@dimen/ui_spacing_small"
+            android:layout_marginTop="@dimen/drawer_icon_size"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:paddingRight="@dimen/ui_spacing_small"
+            />
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
